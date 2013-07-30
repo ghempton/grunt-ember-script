@@ -1,0 +1,45 @@
+{
+  "name": "grunt-ember-script",
+  "description": "Compile EmberScript files.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ghempton/grunt-ember-script",
+  "author": {
+    "name": "Gordon Hempton",
+    "url": "https://codebrief.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghempton/grunt-ember-script"
+  },
+  "bugs": {
+    "url": "https://github.com/ghempton/grunt-ember-script/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ghempton/grunt-ember-script/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "ember-script": "0.0.8"
+  },
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-internal": "*",
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
