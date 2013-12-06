@@ -1,7 +1,7 @@
 {
   "name": "grunt-ember-script",
   "description": "Compile EmberScript files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ghempton/grunt-ember-script",
   "author": {
     "name": "Gordon Hempton",
@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "ember-script": "0.0.8"
+    "ember-script": "~0.0.11"
   },
   "devDependencies": {
     "grunt-contrib-nodeunit": "~0.1.2",
