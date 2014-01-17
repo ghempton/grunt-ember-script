@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "ember-script": "~0.0.11"
+    "ember-script": "~0.0.12"
   },
   "devDependencies": {
     "grunt-contrib-nodeunit": "~0.1.2",
